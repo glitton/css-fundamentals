@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+}
+
+#navbar {
+  background: blanchedalmond;
+  height: 5rem;
+}
+
+.logo {
+  font-size: 32px;
+  color: rgb(235, 11, 197);
+}
+
+.hero {
+  color: blanchedalmond;
+  background: darkblue;
+  min-height: calc(100vh - 5rem);
+}
+
+span {
+  color: red;
+  font-size: 20px;
+}
+
+.btn {
+  background: greenyellow;
+  color: black;
+}
