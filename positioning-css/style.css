@@ -1,37 +1,27 @@
-.nav {
-  background: red;
-  color: white;
-  font-size: 1.5rem;
-  text-transform: capitalize;
-  position: sticky;
-  margin-top: 0;
-  top: 20px;
-  width: 100%;
+* {
+  margin: 0;
 }
 
-div {
-  border: 3px solid red;
-  background: yellow;
-  margin-top: 40px;
-}
-
-.one {
-  background: blue;
-  color: white;
-}
-
-.two {
-  background: green;
-  color: white;
+.box {
+  width: 300px;
+  height: 300px;
+  background: orange;
+  margin-bottom: 1rem;
 }
 
 .special {
-  background: pink;
-  font-size: 20px;
-  color: #222;
+  position: relative;
 }
 
-.container {
-  background: blue;
-  min-height: 300vh;
+.special h1 {
+  position: absolute;
+  inset: 100px 100px;
+  background: rgba(0, 120, 130, 0.5);
+  text-align: center;
+  color: #fff;
 }
+
+/* h1 {
+  top: 100px;
+  bottom: 100px;
+} */
